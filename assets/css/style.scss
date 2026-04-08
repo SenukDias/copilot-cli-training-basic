@@ -1,0 +1,71 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Fix for highlight class styling issues */
+.highlight {
+  background-color: #2d2d2d;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.highlight pre {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.highlight code {
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* Fix code blocks */
+pre.highlight {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+}
+
+/* Ensure inline code doesn't get highlight styling */
+p code,
+li code,
+td code {
+  background-color: #f5f5f5;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Dark theme adjustments */
+body[data-theme="dark"] p code,
+body[data-theme="dark"] li code,
+body[data-theme="dark"] td code {
+  background-color: #3d3d3d;
+  color: #f8f8f2;
+}
+
+/* Fix table styling */
+table {
+  display: table;
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Fix image sizing */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* Fix for GIF demos */
+img[src$=".gif"] {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
