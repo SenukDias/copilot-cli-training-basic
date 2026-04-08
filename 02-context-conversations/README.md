@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Chapter 02: Context & Conversations"
+nav_order: 4
 ---
 
 ![Chapter 02: Context and Conversations](images/chapter-header.png)

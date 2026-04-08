@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Chapter 05: Skills"
+nav_order: 7
 ---
 
 ![Chapter 05: Skills System](images/chapter-header.png)

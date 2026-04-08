@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Chapter 07: Putting It All Together"
+nav_order: 9
 ---
 
 ![Chapter 07: Putting It All Together](images/chapter-header.png)

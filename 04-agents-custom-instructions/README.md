@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Chapter 04: Agents & Custom Instructions"
+nav_order: 6
 ---
 
 ![Chapter 04: Agents and Custom Instructions](images/chapter-header.png)

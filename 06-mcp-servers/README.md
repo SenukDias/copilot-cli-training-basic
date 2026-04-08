@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Chapter 06: MCP Servers"
+nav_order: 8
 ---
 
 ![Chapter 06: MCP Servers](images/chapter-header.png)

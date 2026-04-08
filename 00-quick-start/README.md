@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Chapter 00: Quick Start"
+nav_order: 2
 ---
 
 ![Chapter 00: Quick Start](images/chapter-header.png)

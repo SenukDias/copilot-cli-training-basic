@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home
+nav_order: 1
 ---
 
 ![GitHub Copilot CLI for Beginners](./images/copilot-banner.png)

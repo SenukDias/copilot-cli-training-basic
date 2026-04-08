@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Chapter 01: Setup and First Steps"
+nav_order: 3
 ---
 
 ![Chapter 01: First Steps](images/chapter-header.png)

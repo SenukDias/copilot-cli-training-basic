@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Chapter 03: Development Workflows"
+nav_order: 5
 ---
 
 ![Chapter 03: Development Workflows](images/chapter-header.png)

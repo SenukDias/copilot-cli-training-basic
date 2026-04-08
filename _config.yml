@@ -1,16 +1,51 @@
 title: GitHub Copilot CLI for Beginners
 description: A comprehensive beginner-friendly course teaching you how to use GitHub Copilot CLI to accelerate your development workflow
-theme: jekyll-theme-cayman
-show_downloads: true
-github:
-  repository_url: https://github.com/SenukDias/copilot-cli-training-basic
-  zip_url: https://github.com/SenukDias/copilot-cli-training-basic/zipball/master
-  tar_url: https://github.com/SenukDias/copilot-cli-training-basic/tarball/master
+
+# Just the Docs theme
+remote_theme: just-the-docs/just-the-docs@v0.7.0
+
+# Color scheme
+color_scheme: dark
+
+# Logo
+logo: "/images/copilot-banner.png"
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Navigation
+nav_sort: case_insensitive
+
+# Code highlighting
+highlighter: rouge
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer
+footer_content: "Copyright &copy; 2024 - Made with ❤️ by <a href='https://www.linkedin.com/in/senukdias'>Senuk Dias</a>"
+
+# GitHub links
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/SenukDias/copilot-cli-training-basic"
+gh_edit_branch: "master"
+gh_edit_view_mode: "tree"
 
 markdown: kramdown
 kramdown:
-  input: GFM
-  hard_wrap: false
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 plugins:
   - jekyll-relative-links
