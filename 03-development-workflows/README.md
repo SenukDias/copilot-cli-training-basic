@@ -4,7 +4,7 @@ title: "Chapter 03: Development Workflows"
 nav_order: 5
 ---
 
-![Chapter 03: Development Workflows](images/chapter-header.png)
+![Chapter 03: Development Workflows](03-development-workflows/images/chapter-header.png)
 
 > **What if the AI could find bugs you didn't even know to ask about?**
 
@@ -28,7 +28,7 @@ By the end of this chapter, you'll be able to:
 
 A carpenter doesn't just know how to use tools, they have *workflows* for different jobs:
 
-<img src="images/carpenter-workflow-steps.png" alt="Craftsman workshop showing three workflow lanes: Building Furniture (Measure, Cut, Assemble, Finish), Fixing Damage (Assess, Remove, Repair, Match), and Quality Check (Inspect, Test Joints, Check Alignment)" width="800"/>
+<img src="03-development-workflows/images/carpenter-workflow-steps.png" alt="Craftsman workshop showing three workflow lanes: Building Furniture (Measure, Cut, Assemble, Finish), Fixing Damage (Assess, Remove, Repair, Match), and Quality Check (Inspect, Test Joints, Check Alignment)" width="800"/>
 
 Similarly, developers have workflows for different tasks. GitHub Copilot CLI enhances each of these workflows, making you more efficient and effective in your daily coding tasks.
 
@@ -36,7 +36,7 @@ Similarly, developers have workflows for different tasks. GitHub Copilot CLI enh
 
 # The Five Workflows
 
-<img src="images/five-workflows.png" alt="Five glowing neon icons representing code review, testing, debugging, refactoring, and git integration workflows" width="800"/>
+<img src="03-development-workflows/images/five-workflows.png" alt="Five glowing neon icons representing code review, testing, debugging, refactoring, and git integration workflows" width="800"/>
 
 Each workflow below is self-contained. Pick the ones that match your current needs, or work through them all.
 
@@ -46,7 +46,7 @@ Each workflow below is self-contained. Pick the ones that match your current nee
 
 This chapter covers five workflows that developers typically use. **However, you don't need to read them all at once!** Each workflow is self-contained in a collapsible section below. Pick the ones that match what you need and that fits best with your current project. You can always come back and explore the others later.
 
-<img src="images/five-workflows-swimlane.png" alt="Five Development Workflows: Code Review, Refactoring, Debugging, Test Generation, and Git Integration shown as horizontal swimlanes" width="800"/>
+<img src="03-development-workflows/images/five-workflows-swimlane.png" alt="Five Development Workflows: Code Review, Refactoring, Debugging, Test Generation, and Git Integration shown as horizontal swimlanes" width="800"/>
 
 | I want to... | Jump to |
 |---|---|
@@ -66,7 +66,7 @@ This chapter covers five workflows that developers typically use. **However, you
 <details>
 <summary><strong>Workflow 1: Code Review</strong> - Review files, use the /review agent, create severity checklists</summary>
 
-<img src="images/code-review-swimlane-single.png" alt="Code review workflow: review, identify issues, prioritize, generate checklist." width="800"/>
+<img src="03-development-workflows/images/code-review-swimlane-single.png" alt="Code review workflow: review, identify issues, prioritize, generate checklist." width="800"/>
 
 ### Basic Review
 
@@ -83,7 +83,7 @@ copilot
 <details>
 <summary>🎬 See it in action!</summary>
 
-![Code Review Demo](images/code-review-demo.gif)
+![Code Review Demo](03-development-workflows/images/code-review-demo.gif)
 
 *Demo output varies. Your model, tools, and responses will differ from what's shown here.*
 
@@ -191,7 +191,7 @@ copilot
 <details>
 <summary><strong>Workflow 2: Refactoring</strong> - Restructure code, separate concerns, improve error handling</summary>
 
-<img src="images/refactoring-swimlane-single.png" alt="Refactoring workflow: assess code, plan changes, implement, verify behavior." width="800"/>
+<img src="03-development-workflows/images/refactoring-swimlane-single.png" alt="Refactoring workflow: assess code, plan changes, implement, verify behavior." width="800"/>
 
 ### Simple Refactoring
 
@@ -216,7 +216,7 @@ copilot
 <details>
 <summary>🎬 See it in action!</summary>
 
-![Refactor Demo](images/refactor-demo.gif)
+![Refactor Demo](03-development-workflows/images/refactor-demo.gif)
 
 *Demo output varies. Your model, tools, and responses will differ from what's shown here.*
 
@@ -284,7 +284,7 @@ copilot
 <details>
 <summary><strong>Workflow 3: Debugging</strong> - Track down bugs, security audits, trace issues across files</summary>
 
-<img src="images/debugging-swimlane-single.png" alt="Debugging workflow: understand error, locate root cause, fix, test." width="800"/>
+<img src="03-development-workflows/images/debugging-swimlane-single.png" alt="Debugging workflow: understand error, locate root cause, fix, test." width="800"/>
 
 ### Simple Debugging
 
@@ -312,7 +312,7 @@ copilot
 <details>
 <summary>🎬 See it in action!</summary>
 
-![Fix Bug Demo](images/fix-bug-demo.gif)
+![Fix Bug Demo](03-development-workflows/images/fix-bug-demo.gif)
 
 *Demo output varies. Your model, tools, and responses will differ from what's shown here.*
 
@@ -426,7 +426,7 @@ copilot
 <details>
 <summary><strong>Workflow 4: Test Generation</strong> - Generate comprehensive tests and edge cases automatically</summary>
 
-<img src="images/test-gen-swimlane-single.png" alt="Test Generation workflow: analyze function, generate tests, include edge cases, run." width="800"/>
+<img src="03-development-workflows/images/test-gen-swimlane-single.png" alt="Test Generation workflow: analyze function, generate tests, include edge cases, run." width="800"/>
 
 > **Try this first:** `@samples/book-app-project/books.py Generate pytest tests for all functions including edge cases`
 
@@ -456,7 +456,7 @@ copilot
 <details>
 <summary>🎬 See it in action!</summary>
 
-![Test Generation Demo](images/test-gen-demo.gif)
+![Test Generation Demo](03-development-workflows/images/test-gen-demo.gif)
 
 *Demo output varies. Your model, tools, and responses will differ from what's shown here.*
 
@@ -579,7 +579,7 @@ copilot
 <details>
 <summary><strong>Workflow 5: Git Integration</strong> - Commit messages, PR descriptions, /pr, /delegate, and /diff</summary>
 
-<img src="images/git-integration-swimlane-single.png" alt="Git Integration workflow: stage changes, generate message, commit, create PR." width="800"/>
+<img src="03-development-workflows/images/git-integration-swimlane-single.png" alt="Git Integration workflow: stage changes, generate message, commit, create PR." width="800"/>
 
 > 💡 **This workflow assumes basic git familiarity** (staging, committing, branches). If git is new to you, try the other four workflows first.
 
@@ -610,7 +610,7 @@ copilot -p "Generate a conventional commit message for: $(git diff --staged)"
 <details>
 <summary>🎬 See it in action!</summary>
 
-![Git Integration Demo](images/git-integration-demo.gif)
+![Git Integration Demo](03-development-workflows/images/git-integration-demo.gif)
 
 *Demo output varies. Your model, tools, and responses will differ from what's shown here.*
 
@@ -762,7 +762,7 @@ copilot -p "Generate commit message for: $(git diff --staged)"
 
 # Practice
 
-<img src="../images/practice.png" alt="Warm desk setup with monitor showing code, lamp, coffee cup, and headphones ready for hands-on practice" width="800"/>
+<img src="../03-development-workflows/images/practice.png" alt="Warm desk setup with monitor showing code, lamp, coffee cup, and headphones ready for hands-on practice" width="800"/>
 
 Now it's your turn to apply these workflows.
 
@@ -842,7 +842,7 @@ copilot
 
 The exercise shows developers how to use GitHub Copilot CLI to create issues, generate code, and collaborate from the terminal while building a Node.js calculator app. You'll install the CLI, use templates and agents, and practice iterative, command-line driven development.
 
-##### <img src="../images/github-skills-logo.png" width="28" align="center" /> [Start the "Create applications with the Copilot CLI" Skills Exercise](https://github.com/skills/create-applications-with-the-copilot-cli)
+##### <img src="../03-development-workflows/images/github-skills-logo.png" width="28" align="center" /> [Start the "Create applications with the Copilot CLI" Skills Exercise](https://github.com/skills/create-applications-with-the-copilot-cli)
 
 ---
 
@@ -896,7 +896,7 @@ copilot
 
 ## 🔑 Key Takeaways
 
-<img src="images/specialized-workflows.png" alt="Specialized Workflows for Every Task: Code Review, Refactoring, Debugging, Testing, and Git Integration" width="800"/>
+<img src="03-development-workflows/images/specialized-workflows.png" alt="Specialized Workflows for Every Task: Code Review, Refactoring, Debugging, Testing, and Git Integration" width="800"/>
 
 1. **Code review** becomes comprehensive with specific prompts
 2. **Refactoring** is safer when you generate tests first
