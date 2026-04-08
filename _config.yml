@@ -1,10 +1,6 @@
 title: GitHub Copilot CLI for Beginners
 description: A comprehensive beginner-friendly course teaching you how to use GitHub Copilot CLI to accelerate your development workflow
 
-# Base URL for GitHub Pages
-baseurl: "/copilot-cli-training-basic"
-url: "https://senukdias.github.io"
-
 # Just the Docs theme
 remote_theme: just-the-docs/just-the-docs@v0.7.0
 
