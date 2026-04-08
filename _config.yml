@@ -7,20 +7,14 @@ github:
   zip_url: https://github.com/SenukDias/copilot-cli-training-basic/zipball/master
   tar_url: https://github.com/SenukDias/copilot-cli-training-basic/tarball/master
 
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 plugins:
   - jekyll-relative-links
 
 relative_links:
   enabled: true
   collections: true
-
-include:
-  - README.md
-  - 00-quick-start/README.md
-  - 01-setup-and-first-steps/README.md
-  - 02-context-conversations/README.md
-  - 03-development-workflows/README.md
-  - 04-agents-custom-instructions/README.md
-  - 05-skills/README.md
-  - 06-mcp-servers/README.md
-  - 07-putting-it-together/README.md
