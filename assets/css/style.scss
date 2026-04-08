@@ -1,12 +1,10 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 /* Fix for highlight class styling issues */
 .highlight {
-  background-color: #2d2d2d;
-  padding: 1rem;
+  background-color: #2d2d2d !important;
+  padding: 1rem !important;
   border-radius: 4px;
   overflow-x: auto;
   margin: 1rem 0;
@@ -15,18 +13,18 @@
 .highlight pre {
   margin: 0;
   padding: 0;
-  background: transparent;
+  background: transparent !important;
 }
 
 .highlight code {
-  background: transparent;
+  background: transparent !important;
   padding: 0;
   border: none;
 }
 
 /* Fix code blocks */
 pre.highlight {
-  background-color: #2d2d2d;
+  background-color: #2d2d2d !important;
   color: #f8f8f2;
 }
 
@@ -41,9 +39,9 @@ td code {
 }
 
 /* Dark theme adjustments */
-body[data-theme="dark"] p code,
-body[data-theme="dark"] li code,
-body[data-theme="dark"] td code {
+[data-color-mode="dark"] p code,
+[data-color-mode="dark"] li code,
+[data-color-mode="dark"] td code {
   background-color: #3d3d3d;
   color: #f8f8f2;
 }
