@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 07: Putting It All Together"
+---
+
 ![Chapter 07: Putting It All Together](images/chapter-header.png)
 
 > **Everything you learned combines here. Go from idea to merged PR in a single session.**

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 06: MCP Servers"
+---
+
 ![Chapter 06: MCP Servers](images/chapter-header.png)
 
 > **What if Copilot could read your GitHub issues, check your database, and create PRs... all from the terminal?**

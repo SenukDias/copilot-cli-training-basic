@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 04: Agents & Custom Instructions"
+---
+
 ![Chapter 04: Agents and Custom Instructions](images/chapter-header.png)
 
 > **What if you could hire a Python code reviewer, testing expert, and security reviewer... all in one tool?**

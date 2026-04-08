@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 03: Development Workflows"
+---
+
 ![Chapter 03: Development Workflows](images/chapter-header.png)
 
 > **What if the AI could find bugs you didn't even know to ask about?**

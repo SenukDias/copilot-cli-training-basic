@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 05: Skills"
+---
+
 ![Chapter 05: Skills System](images/chapter-header.png)
 
 > **What if Copilot could automatically apply your team's best practices without you having to explain them every time?**

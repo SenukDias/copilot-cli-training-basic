@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 01: Setup and First Steps"
+---
+
 ![Chapter 01: First Steps](images/chapter-header.png)
 
 > **Watch AI find bugs instantly, explain confusing code, and generate working scripts. Then learn three different ways to use GitHub Copilot CLI.**
