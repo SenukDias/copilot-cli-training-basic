@@ -95,6 +95,13 @@ The **[GitHub Copilot CLI command reference](https://docs.github.com/en/copilot/
 - 🤝 **Want to contribute?** PRs welcome!
 - 📚 **Official Docs:** [GitHub Copilot CLI Documentation](https://docs.github.com/copilot/concepts/agents/about-copilot-cli)
 
+## 🤝 Connect With Me
+
+- 💼 **LinkedIn**: [linkedin.com/in/senukdias](https://www.linkedin.com/in/senukdias)
+- 📱 **WhatsApp Channel**: [Join Here](https://whatsapp.com/channel/0029Van2p0gC6ZvfT0TjC10Y)
+- 📸 **Instagram**: [@senukdias](https://www.instagram.com/senukdias)
+- 👥 **Facebook**: [facebook.com/senukdias](https://www.facebook.com/senukdias)
+
 ## License
 
 This project is licensed under the terms of the MIT open source license. Please refer to the [LICENSE](./LICENSE) file for the full terms.
