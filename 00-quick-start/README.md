@@ -4,7 +4,7 @@ title: "Chapter 00: Quick Start"
 nav_order: 2
 ---
 
-![Chapter 00: Quick Start](00-quick-start/images/chapter-header.png)
+![Chapter 00: Quick Start](images/chapter-header.png)
 
 Welcome! In this chapter, you'll get GitHub Copilot CLI (Command Line Interface) installed, signed in with your GitHub account, and verified that everything works. This is a quick setup chapter. Once you're up and running, the real demos start in Chapter 01!
 
@@ -105,7 +105,7 @@ copilot
 
 You'll be asked to trust the folder containing the repository (if you haven't already). You can trust it one time or across all future sessions.
 
-<img src="00-quick-start/images/copilot-trust.png" alt="Trusting files in a folder with the Copilot CLI" width="800"/>
+<img src="images/copilot-trust.png" alt="Trusting files in a folder with the Copilot CLI" width="800"/>
 
 After trusting the folder, you can sign in with your GitHub account.
 
@@ -121,7 +121,7 @@ After trusting the folder, you can sign in with your GitHub account.
 4. Select "Authorize" to grant GitHub Copilot CLI access
 5. Return to your terminal - you're now signed in!
 
-<img src="00-quick-start/images/auth-device-flow.png" alt="Device Authorization Flow - showing the 5-step process from terminal login to signed-in confirmation" width="800"/>
+<img src="images/auth-device-flow.png" alt="Device Authorization Flow - showing the 5-step process from terminal login to signed-in confirmation" width="800"/>
 
 *The device authorization flow: your terminal generates a code, you verify it in the browser, and Copilot CLI is authenticated.*
 
@@ -150,7 +150,7 @@ After you receive a response, you can exit the CLI:
 <details>
 <summary>🎬 See it in action!</summary>
 
-![Hello Demo](00-quick-start/images/hello-demo.gif)
+![Hello Demo](images/hello-demo.gif)
 
 *Demo output varies. Your model, tools, and responses will differ from what's shown here.*
 

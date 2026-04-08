@@ -4,7 +4,7 @@ title: "Chapter 05: Skills"
 nav_order: 7
 ---
 
-![Chapter 05: Skills System](05-skills/images/chapter-header.png)
+![Chapter 05: Skills System](images/chapter-header.png)
 
 > **What if Copilot could automatically apply your team's best practices without you having to explain them every time?**
 
@@ -27,7 +27,7 @@ By the end of this chapter, you'll be able to:
 ## 🧩 Real-World Analogy: Power Tools
 
 A general-purpose drill is useful, but specialized attachments make it powerful. 
-<img src="05-skills/images/power-tools-analogy.png" alt="Power Tools - Skills Extend Copilot's Capabilities" width="800"/>
+<img src="images/power-tools-analogy.png" alt="Power Tools - Skills Extend Copilot's Capabilities" width="800"/>
 
 
 Skills work the same way. Just like swapping drill bits for different jobs, you can add skills to Copilot for different tasks:
@@ -47,7 +47,7 @@ Skills work the same way. Just like swapping drill bits for different jobs, you 
 
 # How Skills Work
 
-<img src="05-skills/images/how-skills-work.png" alt="Glowing RPG-style skill icons connected by light trails on a starfield background representing Copilot skills" width="800"/>
+<img src="images/how-skills-work.png" alt="Glowing RPG-style skill icons connected by light trails on a starfield background representing Copilot skills" width="800"/>
 
 Learn what skills are, why they matter, and how they differ from agents and MCP.
 
@@ -129,7 +129,7 @@ Skills are just one piece of GitHub Copilot's extensibility model. Here's how th
 
 > *Don't worry about MCP quite yet. We'll cover it in [Chapter 06](../06-mcp-servers/). It's included here so you can see how skills fit into the overall picture.*
 
-<img src="05-skills/images/skills-agents-mcp-comparison.png" alt="Comparison diagram showing the differences between Agents, Skills, and MCP Servers and how they combine into your workflow" width="800"/>
+<img src="images/skills-agents-mcp-comparison.png" alt="Comparison diagram showing the differences between Agents, Skills, and MCP Servers and how they combine into your workflow" width="800"/>
 
 | Feature | What It Does | When to Use |
 |---------|--------------|-------------|
@@ -184,7 +184,7 @@ copilot
 3. Automatically loads your team's quality checklist
 4. Applies all checks without you listing them
 
-<img src="05-skills/images/skill-auto-discovery-flow.png" alt="How Skills Auto-Trigger - 4-step flow showing how Copilot automatically matches your prompt to the right skill" width="800"/>
+<img src="images/skill-auto-discovery-flow.png" alt="How Skills Auto-Trigger - 4-step flow showing how Copilot automatically matches your prompt to the right skill" width="800"/>
 
 *Just ask naturally. Copilot matches your prompt to the right skill and applies it automatically.*
 
@@ -219,7 +219,7 @@ copilot
 <details>
 <summary>🎬 See it in action!</summary>
 
-![Skill Trigger Demo](05-skills/images/skill-trigger-demo.gif)
+![Skill Trigger Demo](images/skill-trigger-demo.gif)
 
 *Demo output varies. Your model, tools, and responses will differ from what's shown here.*
 
@@ -267,7 +267,7 @@ PR Review: feature/user-auth
 
 # Creating Custom Skills
 
-<img src="05-skills/images/creating-managing-skills.png" alt="Human and robotic hands building a wall of glowing LEGO-like blocks representing skill creation and management" width="800"/>
+<img src="images/creating-managing-skills.png" alt="Human and robotic hands building a wall of glowing LEGO-like blocks representing skill creation and management" width="800"/>
 
 Build your own skills from SKILL.md files.
 
@@ -464,7 +464,7 @@ copilot --agent code-reviewer
 
 Discover installed skills, find community skills, and share your own.
 
-<img src="05-skills/images/managing-sharing-skills.png" alt="Managing and Sharing Skills - showing the discover, use, create, and share cycle for CLI skills" width="800" />
+<img src="images/managing-sharing-skills.png" alt="Managing and Sharing Skills - showing the discover, use, create, and share cycle for CLI skills" width="800" />
 
 ---
 
@@ -508,7 +508,7 @@ Description: Security-focused code review checking OWASP Top 10 vulnerabilities
 <details>
 <summary>See it in action!</summary>
 
-![List Skills Demo](05-skills/images/list-skills-demo.gif)
+![List Skills Demo](images/list-skills-demo.gif)
 
 *Demo output varies. Your model, tools, and responses will differ from what's shown here.*
 
@@ -581,7 +581,7 @@ cp -r /tmp/awesome-copilot/skills/code-checklist ~/.copilot/skills/
 
 # Practice
 
-<img src="../05-skills/images/practice.png" alt="Warm desk setup with monitor showing code, lamp, coffee cup, and headphones ready for hands-on practice" width="800"/>
+<img src="../images/practice.png" alt="Warm desk setup with monitor showing code, lamp, coffee cup, and headphones ready for hands-on practice" width="800"/>
 
 Apply what you've learned by building and testing your own skills.
 
