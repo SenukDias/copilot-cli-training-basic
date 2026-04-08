@@ -49,3 +49,17 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+
+# Include all necessary files and folders
+include:
+  - _pages
+  - assets
+  
+# Keep image directories
+exclude:
+  - node_modules
+  - vendor
+  - .git
+  - .github
+  - package.json
+  - package-lock.json
