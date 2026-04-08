@@ -10,6 +10,9 @@ color_scheme: dark
 # Logo
 logo: "/images/copilot-banner.png"
 
+# Favicon
+favicon_ico: "/favicon.ico"
+
 # Search
 search_enabled: true
 search:
