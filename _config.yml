@@ -26,15 +26,8 @@ nav_sort: case_insensitive
 
 # Code highlighting
 highlighter: rouge
-kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    default_lang: bash
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
+
+# Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
 
