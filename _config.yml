@@ -27,6 +27,8 @@ nav_sort: case_insensitive
 # Code highlighting
 highlighter: rouge
 
+markdown: kramdown
+
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
@@ -40,12 +42,6 @@ gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/SenukDias/copilot-cli-training-basic"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
-
-markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
 
 plugins:
   - jekyll-relative-links
