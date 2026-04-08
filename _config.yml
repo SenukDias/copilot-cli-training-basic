@@ -1,0 +1,26 @@
+title: GitHub Copilot CLI for Beginners
+description: A comprehensive beginner-friendly course teaching you how to use GitHub Copilot CLI to accelerate your development workflow
+theme: jekyll-theme-cayman
+show_downloads: true
+github:
+  repository_url: https://github.com/SenukDias/copilot-cli-training-basic
+  zip_url: https://github.com/SenukDias/copilot-cli-training-basic/zipball/master
+  tar_url: https://github.com/SenukDias/copilot-cli-training-basic/tarball/master
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - README.md
+  - 00-quick-start/README.md
+  - 01-setup-and-first-steps/README.md
+  - 02-context-conversations/README.md
+  - 03-development-workflows/README.md
+  - 04-agents-custom-instructions/README.md
+  - 05-skills/README.md
+  - 06-mcp-servers/README.md
+  - 07-putting-it-together/README.md
